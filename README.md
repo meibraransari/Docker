@@ -1,2 +1,2 @@
-# docker
+# Docker Playground
 Docker Playground

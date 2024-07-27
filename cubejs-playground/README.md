@@ -1,13 +1,13 @@
 ---
 Created: 2024-07-27T21:10:04+05:30
-Updated: 2024-07-27T21:16:06+05:30
+Updated: 2024-07-27T21:18:07+05:30
 Maintainer: Ibrar Ansari
 ---
 # **CubeJS Playground Setup Guide for Linux**
 
 ### Required Tools for Environment Setup (Development)
 
-1. Ubuntu OS
+1. Ubuntu OS Latest
 2. Latest Docker must be installed.
 3. Docker Service must be up and running.
 
@@ -18,8 +18,8 @@ sudo sh get-docker.sh
 groupadd docker
 sudo usermod -aG docker $USER
 systemctl enable docker
-Reboot required so, kindly reboot system to take effect.
 ```
+Reboot required so, kindly reboot system to take effect.
 ### Create Required directories
 ```
 mkdir -p ~/cube/model && chmod -R 755 ~/cube && cd ~/cube && pwd
@@ -49,8 +49,9 @@ docker run -itd --name=cube --restart=always -p 4000:4000 --env-file=$(pwd)/.env
 docker logs -f cube
 ```
 ### Access using URL from browser.
+```
 http://<HOST_IP>:4000
-
+```
 ### API Guide
 ```
 REST API Endpoint: http://<HOST_IP>:4000/cubejs-api/v1/load
@@ -60,9 +61,9 @@ Ref: http://<HOST_IP>:4000/#/frontend-integrations
 ```
 
 ### Cubejs Playground Reference: 
-https://github.com/cube-js/cube
-https://hub.docker.com/r/cubejs/cube
-https://cube.dev/docs/product/configuration/data-sources
+- https://github.com/cube-js/cube
+- https://hub.docker.com/r/cubejs/cube
+- https://cube.dev/docs/product/configuration/data-sources
 
 ### 💼 Connect with me 👇👇 😊
 

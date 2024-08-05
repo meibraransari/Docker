@@ -1,6 +1,6 @@
 ---
 Created: 2024-07-27T08:43:12+05:30
-Updated: 2024-08-05T12:14:52+05:30
+Updated: 2024-08-05T12:29:09+05:30
 Maintainer: Ibrar Ansari
 ---
 # Install Docker on Server 2022 without enabling Virtualization in BIOS
@@ -25,7 +25,12 @@ Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/microsoft/
 docker --version
 ```
 
+#### Step 5: Verify Docker info
+```
+docker info
+```
 
+> Note: It will support only windows containers.
 
 ### 💼 Connect with me 👇👇 😊
 

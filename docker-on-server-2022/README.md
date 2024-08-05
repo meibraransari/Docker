@@ -1,6 +1,6 @@
 ---
 Created: 2024-07-27T08:43:12+05:30
-Updated: 2024-08-05T13:26:34+05:30
+Updated: 2024-08-05T14:13:24+05:30
 Maintainer: Ibrar Ansari
 ---
 # Install Docker on Server 2022 without enabling Virtualization in BIOS
@@ -32,6 +32,13 @@ docker info
 
 > [!NOTE]
 > It will support only windows containers.
+
+> [!IMPORTANT]  
+> Without enabling Virtualization in Bios below will not work
+- WSL
+- Docker Desktop
+- Virtualbox
+- Hyperv
 
 ### 💼 Connect with me 👇👇 😊
 
